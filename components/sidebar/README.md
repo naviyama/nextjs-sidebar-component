@@ -7,7 +7,7 @@ This is a responsive Sidebar component built using React, Next.js, and Tailwind 
 The Sidebar component dynamically renders a navigation menu, adapting its layout for mobile and desktop devices. On mobile devices, the menu is accessible via a modal triggered by a menu button, while on larger screens, the links are displayed directly in a sidebar.
 
 ## File Structure
-
+```
 app/
 |
 |- layout.tsx
@@ -28,7 +28,8 @@ app/
             |- Modal.tsx
             |- NavLinks.tsx
             |- Sidebar.tsx
-            |- sidebarLinks.ts`
+            |- sidebarLinks.ts
+```
 
 ## Usage
 
@@ -97,7 +98,7 @@ export const links: LinkProps[] = [
 ];
 ```
 
-###### Notes:
+##### Notes:
 
 - You can import any icon from the `react-icons' library or any other icon library you prefer.
 
