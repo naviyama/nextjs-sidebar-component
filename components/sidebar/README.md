@@ -99,7 +99,7 @@ export const links: LinkProps[] = [
 
 ##### Notes:
 
-- You can import any icon from the `react-icons` library or any other icon library you prefer.
+- You can import any icon from the [react-icons](https://react-icons.github.io/react-icons/) library or any other icon library you prefer.
 
 - To add a new link, import the desired icon and add an object to the links array with the name, href, and icon properties.
 
