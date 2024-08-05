@@ -37,12 +37,11 @@ app/
 Ensure you have the Sidebar component imported and included in your layout or main component.
 
 ```tsx
-// Import the Sidebar component
 import Sidebar from '@/components/sidebar/Sidebar';
 ```
 
 #### 2. Add to Layout
-Include the Sidebar in your application's layout. For example, in layout.tsx:
+Include the Sidebar in your application's layout. For example, in `layout.tsx`:
 
 ```tsx
 import Sidebar from "@/components/sidebar/Sidebar";
@@ -100,7 +99,7 @@ export const links: LinkProps[] = [
 
 ##### Notes:
 
-- You can import any icon from the `react-icons' library or any other icon library you prefer.
+- You can import any icon from the `react-icons` library or any other icon library you prefer.
 
 - To add a new link, import the desired icon and add an object to the links array with the name, href, and icon properties.
 
